@@ -1,0 +1,158 @@
+
+
+
+********************************************************************
+
+col 
+
+We can have 12 col in one row. 
+More than 12 cols will be in new row
+
+
+row-cols-2
+there will be 2 cols in one row
+
+
+ 
+********************************************************************
+
+text-center
+
+********************************************************************
+
+margin  
+m-5
+mb-5
+mt-5
+
+mb-md-5
+
+********************************************************************
+
+Padding 
+
+p-5
+p-md-5
+
+
+********************************************************************
+
+horizontally align items of row
+
+justify-content-end
+justify-content-start
+justify-content-center
+
+justify-content-sm-center
+justify-content-md-center
+
+********************************************************************
+
+vertically align items of row
+
+align-items-start
+align-items-end
+align-items-center  
+align-items-stretch      
+
+
+********************************************************************
+
+align-content
+
+
+if we increase height of row then all columns will be stretched to take full height,
+            to avoid this problem we have  align-content that will allow to control the 
+
+
+(carefully set the col class)
+align-content-stretch ( default)
+align-content-end
+align-content-start
+align-content-center
+align-content-between
+align-content-around
+align-content-baseline
+
+
+
+********************************************************************
+
+align-self
+
+To vertically align single col we have align-self classes
+align-self-stretch ( default)
+            align-self-baseline ( default)
+            align-self-end
+            align-self-start
+            align-self-center
+            align-self-auto  (  take property of parent class)
+
+********************************************************************
+
+flex classes to set positioning of col's in row:
+
+    flex-row ( default )
+    flex-row-reverse
+    flex-row-column
+    flex-row-column-reverse
+
+    flex-wrap (default)  ( if we add div of rowSize > 12 , they will be in new line of same row )
+    flex-nowrap ( if we add div of rowSize > 12 , they will be go outside of that same row )
+
+    flex-fill ( that col will that full row i.e col-12)
+
+    for diff breakpoints:
+    flex-*-*
+    flex-md-row-column
+    flex-xl-row
+
+********************************************************************
+
+display properties:
+
+d-none
+d-sm-none
+
+d-block
+d-sm-block
+
+
+********************************************************************
+
+w-25        (  take 25% width of its parent   )
+
+h-25
+
+
+********************************************************************
+Position:
+
+fixed-top
+fixed-bottom
+fixed-bottom fixed-top  ->  use both will stick to both top and bottom
+sticky-top   ->  jb ye element top se tkraye ga tw wahin fix ho jaye ga
+
+
+********************************************************************
+
+ overflow-auto           -> if content overflow , it makes scroll bar
+ overflow-hidden         ->  hides the overflow text
+
+********************************************************************
+
+
+Bootstrap 5
+
+
+1) new breakpoint
+xxl for >=1400 
+
+2) Gutter class
+for space between cols
+
+gx-*   [0-5]
+gy-*   [0-5]
+
+3) line height class
+
